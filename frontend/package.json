@@ -1,0 +1,29 @@
+{
+	"name": "kalam",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"marketplace": "npx create-web3-dapp marketplace"
+	},
+	"dependencies": {
+		"@huddle01/react": "^0.0.6",
+		"@rainbow-me/rainbowkit": "^0.12.4",
+		"alchemy-sdk": "^2.6.2",
+		"next": "13.1.2",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"wagmi": "^0.12.6"
+	},
+	"devDependencies": {
+		"@types/react": "18.0.35",
+		"autoprefixer": "^10.4.14",
+		"eslint": "8.36.0",
+		"eslint-config-next": "13.2.4",
+		"postcss": "^8.4.22",
+		"tailwindcss": "^3.3.1"
+	}
+}
